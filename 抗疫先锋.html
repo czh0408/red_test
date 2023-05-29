@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>抗疫先锋</title>
+		<link rel="stylesheet" type="text/css" href="css/2.css">
+		<link rel="shortcut icon" type="text/css" href="img/logo1.ico" />
+	</head>
+	<body>
+		<div class="videobox">
+			<header>
+				<div class="con">
+					<section class="left">
+						<span id="current-time"></span>
+					</section>
+					<section class="right">
+						<!-- <a href="#">登录</a>
+		 				<a href="#">注册</a> -->
+					</section>
+				</div>
+			</header>
+			<nav>
+				<span>
+					<a href="#">
+						<img src="img/logo1.jpg" alt="logo">
+					</a>
+				</span>
+
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="COVID-19介绍.html">COVID-19介绍</a></li>
+					<li><a href="抗疫先锋.html">抗疫先锋</a></li>
+					<li><a href="政策法规.html">政策法规</a></li>
+					<li><a href="防控指南.html">防护指南</a></li>
+					<li><a href="新闻来源.html">新闻来源</a></li>
+				</ul>
+
+			</nav>
+			<div class="box1">
+				<h1>2020抗击疫情十大英雄人物</h1>
+				<p id="one">2020年是特殊的一年，是疫情爆发的一年，也是最为让人感动的一年，
+				在这一年有无数的英雄们让我们看到的大爱大义，无数抗击疫情的英雄事迹被我们知晓，让我们落泪，致敬这些在不平凡的年代中平凡的英雄们!</p>
+				<hr size="3" color="#ccc" \>
+				<h2>2020年十大抗疫功臣</h2>
+				<p>️<strong>钟南山</strong>:中国工程院院士，再次临危受命，挂帅亲征，敢于发声，家喻户晓，一声号令，全民不动，是一位院士，也是一位战士，更是一位国士。</p>
+				<p>️<strong>李兰娟</strong>:中国工程院院士，对打赢这场战役都有着不可磨灭的功勋，第一个提出“武汉封城”的人，奋战在抗疫一线，呕心沥血，带领团队研发疫苗。</p>
+				<p><strong>张文宏</strong>:上海市医疗救治专家组组长、复旦大学附属华山医院感染科主任， 更像是一个医术高超的心理治疗师，他在和人们调侃的同时医治着疫情带给人们心灵的创伤，
+				“ 最有效的药物是什么?人的免疫力”“你在家隔离也是战士， 病毒都给你闷死了”，“都在歌颂医生，完整说法应该是医护人员”，“防火防盗 防同事”成为抗疫的名句。</p>
+				<p><strong>张继先</strong>:武汉市中心医院医生，疫情上报第一人，奋战在抗疫第一 线，急病人所急，“我这次把一生的眼泪流光了!”</p>
+				<p><strong>王辰</strong>:中国工程院院士，国内首屈一-指的呼吸病学与危重症医学专家，与钟老齐名，大胆提出建设方舱医院的设想，
+				让武汉在短短24小时之内，迅速建成3所“方舱医院”，增加了4000多张床位，是火神山医院床位的4倍还多。</p>
+				<p><strong>张伯礼</strong>:中国工程院院士，发挥中医药独特优势，提高了中度和轻度病人治愈率，降低了重度和危重病人死亡率。</p>
+				<p><strong>张定宇</strong>:武汉市金银潭医院院长，疫情狙击手，身患渐冻症依然战斗在抗疫一线。“ 我必须跑得更快</p>
+				<p><strong>张思兵</strong>:武汉火神山医院院长，解放军总医院卫勤部部长。2003抗击非典年他和他的医院做到了三个“零感染”，
+				援建小汤山医院，这次抗疫临危受命，他要把救治流程搞好，因为流程很重要。</p>
+				<p><strong>王行环</strong>王行环:武汉雷神山医院院长，武汉大学中南医院院长。“一切为病人着想”，是王行环的座右铭。
+				“尽量针对不同的病人制定不同的方案，做到因人而异、个性化治疗。”截至2月16日，雷神山医院收治患者总人数近600人。</p>
+			</div>
+			<script>
+				setInterval(function() {
+					var today = new Date();
+					var options = {
+						year: 'numeric',
+						month: 'numeric',
+						day: 'numeric',
+						weekday: 'short',
+						hour: 'numeric',
+						minute: 'numeric',
+						second: 'numeric',
+						hour12: false
+					};
+					var dateTimeString = today.toLocaleTimeString('zh-CN', options);
+					document.getElementById("current-time").innerHTML = dateTimeString;
+				}, 1000);
+			</script>
+	</body>
+</html>

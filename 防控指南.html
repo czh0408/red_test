@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>防护指南</title>
+		<link rel="stylesheet" type="text/css" href="css/2.css">
+		<link rel="shortcut icon" type="text/css" href="img/logo1.ico" />
+	</head>
+	<body>
+		<div class="videobox">
+		 	<header>
+		 		<div class="con">
+		 			<section class="left">
+						<span id="current-time"></span>
+					</section>
+		 			<section class="right">
+		 				<!-- <a href="#">登录</a>
+		 				<a href="#">注册</a> -->
+		 			</section>
+		 		</div>
+			</header>
+			<nav>
+				<span>
+					<a href="#">
+						<img src="img/logo1.jpg" alt="logo">
+					</a>
+				</span>
+				
+				<ul>
+					    <li><a href="index.html">首页</a></li>
+						<li><a href="COVID-19介绍.html">COVID-19介绍</a></li>
+						<li><a href="抗疫先锋.html">抗疫先锋</a></li>
+						<li><a href="政策法规.html">政策法规</a></li>
+						<li><a href="防控指南.html">防护指南</a></li>
+						<li><a href="新闻来源.html">新闻来源</a></li>
+				</ul>
+					
+			</nav>
+			
+			<div class="box2">
+			<video src="img/防控指南.mp4" autoplay loop ></video>
+			</div>
+			<div class="box3">
+				<h1>防控指南</h1>
+				<hr size="3" color="#ccc" \>
+				<p>对普通公众来说，除了在密闭场所需要戴口罩外，当处于人员密集的露天广场、剧场和公园等室外场所时，
+				也需要佩戴口罩。另外，我们建议公众家里日常备用一些高级别口罩，当家人出现了鼻咽不适、咳嗽、打喷嚏和发热等症状，
+				到医院就诊的时候，佩戴更高级别的口罩，保护自己，保护他人，全面防范传播风险。</p>
+				<p>口罩的正确使用、储存和清洁是保持其有效性的关键。</p>
+				<p>公众日常要注意以下事项：<br>
+				一是正确佩戴口罩，确保口罩盖住口鼻和下巴，鼻夹要压实；<br>
+				二是口罩出现脏污、变形、损坏、异味时需及时更换，每个口罩累计佩戴时间不超过8小时；<br>
+				三是在跨地区公共交通工具上，或医院等环境使用过的口罩不建议重复使用；<br>
+				四是需重复使用的口罩在不使用时宜悬挂于清洁、干燥、通风</p>
+				
+			</div>
+			div <div class="box4">
+				<p>处；<br>
+				五是戴口罩期间如出现憋闷、气短等不适，应立即前往空旷通风处摘除口罩；<br>
+				六是外出要携带备用口罩，存放在原包装袋或干净的存放袋中，避免挤压变形，废弃口罩归为其他垃圾处理。</p>
+			</div>
+			<script>
+			  setInterval(function() {
+			    var today = new Date();
+			    var options = {
+				  year:'numeric',
+				  month:'numeric',
+				  day:'numeric',
+				  weekday:'short',
+			      hour: 'numeric',
+			      minute: 'numeric',
+			      second: 'numeric',
+			      hour12: false
+			    };
+			    var dateTimeString = today.toLocaleTimeString('zh-CN', options);
+			    document.getElementById("current-time").innerHTML = dateTimeString;
+			  }, 1000);
+			</script>
+	</body>

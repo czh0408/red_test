@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>COVID-19介绍</title>
+		<link rel="stylesheet" type="text/css" href="css/2.css">
+		<link rel="shortcut icon" type="text/css" href="img/logo1.ico" />
+	</head>
+	<body>
+		<div class="videobox">
+		 	<header>
+		 		<div class="con">
+		 			<section class="left">
+						<span id="current-time"></span>
+					</section>
+		 			<section class="right">
+		 				<!-- <a href="#">登录</a>
+		 				<a href="#">注册</a> -->
+		 			</section>
+		 		</div>
+			</header>
+			<nav>
+				<span>
+					<a href="#">
+						<img src="img/logo1.jpg" alt="logo">
+					</a>
+				</span>
+				
+				<ul>
+					    <li><a href="index.html">首页</a></li>
+						<li><a href="COVID-19介绍.html">COVID-19介绍</a></li>
+						<li><a href="抗疫先锋.html">抗疫先锋</a></li>
+						<li><a href="政策法规.html">政策法规</a></li>
+						<li><a href="防控指南.html">防护指南</a></li>
+						<li><a href="新闻来源.html">新闻来源</a></li>
+				</ul>
+					
+			</nav>
+			<div class="box2">
+			<video src="img/COVID-19介绍.mp4" autoplay loop ></video>
+			</div>
+			<div class="box3">
+				<h1>COVID-19病毒</h1>
+				<hr size="3" color="#ccc" \>
+				<p>新型冠状病毒肺炎（Corona Virus Disease 2019，COVID-19），简称“新冠肺炎”，
+				世界卫生组织命名为“2019冠状病毒病”，是指2019新型冠状病毒感染导致的肺炎。2019年12月以来，
+				湖北省武汉市部分医院陆续发现了多例有华南海鲜市场暴露史的不明原因肺炎病例，
+				证实为2019新型冠状病毒感染引起的急性呼吸道传染病。</p>
+				<p>2020年2月11日，世界卫生组织总干事谭德塞在瑞士日内瓦宣布，将新型冠状病毒感染的肺炎命名为“COVID-19”。
+				2月22日，国家卫生健康委发布通知，“新型冠状病毒肺炎”英文名称修订为“COVID-19”。3月11日，世卫组织认为当前新冠肺炎疫情可被称为全球大流行。
+				4月4日，中国举行全国性哀悼活动。8月18日，国家卫健委修订完成了新型冠状病毒肺炎诊疗方案（试行第八版）。
+				9月3日，世卫组织新冠肺炎疫情应对评估专家组共同主席在成员国吹风会上宣布了专家组成员名单，钟南山入选。</p>
+				<p>2022年12月26日，国家卫生健康委员会发布公告，将新型冠状病毒肺炎更名为新型冠状病毒感染。经国务院批准，
+				自2023年1月8日起，解除对新型冠状病毒感染采取的《中华人民共和国传染病防治法》规定的甲类传染病预防、控制措施；
+				新型冠状病毒感染不再纳入《中华人民共和国国境卫生检疫法》规定的检疫传染病管理。</p>
+				
+			</div>
+			<div class="box4">
+			<p>
+			   中医病名：新型冠状病毒肺炎<br>
+			   外文名：COVID-19<br>
+			   常见症状：发热、干咳、乏力<br>
+			   传播途径：直接传播、气溶胶传播和接触传播<br>
+			   文简称：新冠肺炎
+			   </p>
+			</div>
+			
+			<footer>
+			<div>
+					<a href="index.html">&copy软件技术22-3班504制作</a>
+				</div> 
+				</footer>
+			<script>
+			  setInterval(function() {
+			    var today = new Date();
+			    var options = {
+				  year:'numeric',
+				  month:'numeric',
+				  day:'numeric',
+				  weekday:'short',
+			      hour: 'numeric',
+			      minute: 'numeric',
+			      second: 'numeric',
+			      hour12: false
+			    };
+			    var dateTimeString = today.toLocaleTimeString('zh-CN', options);
+			    document.getElementById("current-time").innerHTML = dateTimeString;
+			  }, 1000);
+			</script>
+	</body>
+</html>

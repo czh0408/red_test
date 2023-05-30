@@ -1,131 +1,179 @@
-body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, img {margin:0;padding:0;border:0;list-style: none;}
-body{font-family:"微软雅黑",Arial, Helvetica, sans-serif; font-size:14px;}
-/* @font-face {font-family: 'freshskin';src:url('../fonts/iconfont.ttf') format('truetype')} */
-a{color:#999;text-decoration: none;}
-a:hover{color:#fff;}
-input,textarea{outline: none;}
- @font-face {
-	font-family: 'freshskin';
-    src:url('../fonts/iconfont.ttf');
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
 }
+
+body {
+	font-family: "微软雅黑", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+a {
+	color: #999;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+}
+
+input,
+textarea {
+	outline: none;
+}
+
+@font-face {
+	font-family: 'freshskin';
+	src: url('../fonts/iconfont.ttf');
+}
+
 html {
-				height: 100%;
-				background: url("../img/背景3.jpg");
-				background-size: cover;
-			}
+	height: 100%;
+	background: url("../img/背景3.jpg");
+	background-size: cover;
+}
+
 /* videobox */
- .videobox{
-	width:100%;
-	height:900px;
+.videobox {
+	width: 100%;
+	height: 900px;
 	overflow: hidden;
 	position: relative;
 }
 
-.videobox video{
-	width:100%;
-	min-width: 1280px;
-	position: absolute;
-	top:50%;
-	left:50%;
-	transform:translate(-50%,-50%);
-}
-.videobox header{
-	width:100%;
-	height:40px;
-	background: #333;
+.videobox header {
+	width: 100%;
+	height: 40px;
+	background: #00CED1;
 	z-index: 999;
 	position: absolute;
 }
-.videobox header .con{
-	width:1030px;
-	height:40px;
-	
-	margin:0 ;
+
+.videobox header .con {
+	width: 1030px;
+	height: 40px;
+
+	margin: 0;
 }
-.videobox header .left{
-	color: #999;
+
+.videobox header .left {
+	color: black;
 	margin-top: 3px;
 	float: left;
 	font-size: 25px;
 	margin-left: 20px;
 }
-.videobox header div section span{
-	
-}
-.videobox header .right{
+
+
+.videobox header .right {
 	margin-top: 10px;
 	float: right;
 	margin-right: -300px;
 	font-family: "freshskin";
 }
-.videobox header .right a{margin-right: 10px;}
-.videobox nav{
-	width:100%;
-	height:106.083px;
-	background: #666;
+
+.videobox header .right a {
+	margin-right: 10px;
+}
+
+.videobox nav {
+	width: 100%;
+	height: 106.083px;
+	background: #7fffd4;
 	z-index: 1000;
 	position: absolute;
-	top:40px;
+	top: 40px;
 	border-bottom: 1px solid #fff;
 }
-.videobox nav ul{
-	width:1200px;
-	height:90px;
+
+.videobox nav ul {
+	width: 1420px;
+	height: 90px;
 	margin: 35px auto;
-	
+
 	float: right;
 	position: relative;
 }
-.videobox nav ul li{
+
+.videobox nav ul li {
 	float: left;
-	margin-right: 5%;
+	margin-right: 10%;
 	padding: 0 15px;
 }
-.videobox nav ul .left:hover aside{display: block;}
-.videobox nav ul a{
+
+.videobox nav ul .left:hover aside {
+	display: block;
+}
+
+.videobox nav ul a {
 	display: block;
 	/* height:90px;
 	line-height: 90px; */
 	font-size: 25px;
 	color: #fffafa);
 }
+
 .videobox nav ul li a:hover {
-				color: rgb(228, 228, 228);
-				/* 鼠标悬停时的背景色 */
-			}
-
-.videobox nav span  a img{vertical-align: middle;width: 106px;height: auto;}
-
-.videobox aside{
-    display: none; 
-	width:210px;
-	height:90px;
-	background: rgba(0,0,0,0.3);
-	position: absolute;
-	left:160PX;
-	top:55px;
-	z-index: 1500;
-	color:#fff;
+	color: rgb(228, 228, 228);
+	/* 鼠标悬停时的背景色 */
 }
 
-.videobox aside ol{
-	width:155px;
+.videobox nav span a img {
+	vertical-align: middle;
+	width: 106px;
+	height: auto;
+}
+
+.videobox aside {
+	display: none;
+	width: 210px;
+	height: 90px;
+	background: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	left: 160PX;
+	top: 55px;
+	z-index: 1500;
+	color: #fff;
+}
+
+.videobox aside ol {
+	width: 155px;
 	float: left;
 }
-.videobox aside ol li{
-	width:170px;
-	height:30px;
+
+.videobox aside ol li {
+	width: 170px;
+	height: 30px;
 	line-height: 25px;
 	cursor: pointer;
 	font-family: "宋体";
-	
+
 }
+
 .box1 {
-				position: absolute;
-				top: 215px;
-				left: 20px;
-			}
-.box1 h1{
+	position: absolute;
+	top: 215px;
+	left: 20px;
+}
+
+.box1 h1 {
 	font-size: 190px;
 	font-weight: bold;
 	font-family: 华文行楷;
@@ -133,7 +181,8 @@ html {
 	text-shadow: 5px 5px goldenrod;
 	line-height: 200px;
 }
-.box1 h2{
+
+.box1 h2 {
 	font-size: 150px;
 	font-weight: bold;
 	font-family: 华文行楷;
@@ -143,11 +192,39 @@ html {
 	line-height: 200px;
 }
 
-.banquan{
-	width:100%;
-	height:60px;
-	background: #333333;
-	text-align: center;
+.box9 {
+	width: 550px;
+	height: 200px;
+	position: absolute;
+	top: 160px;
+	right: 20px;
 }
-.banquan a{line-height: 60px;}
-/* banquan */
+
+.slider-wrapper {
+	width: 300%;
+	transition: transform 0.3s ease-in-out;
+}
+
+.slider-wrapper img {
+	width: calc(100%/3);
+	float: left;
+
+}
+
+.slider-indicators {
+	position: absolute;
+	bottom: -510px;
+	left: 50%;
+	transform: translateX(-50%);
+
+	
+}
+
+.slider-indicator {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: white;
+	
+}
